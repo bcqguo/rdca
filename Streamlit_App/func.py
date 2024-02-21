@@ -7,8 +7,8 @@ from statsmodels.distributions.copula.api import CopulaDistribution, StudentTCop
 
 def sim_1K_quarterly(org_amt, start_age, end_age, bond_weight, adj_RMD):
     
-    rmd_quarter = pd.read_csv('rmd_quarter_rate.csv')
-    (joint_dist, quarter_all, income_fit, dividend_fit, inflation_fit) = pickle.load(open("inputs.pkl", "rb"))
+    rmd_quarter = pd.read_csv('./rmd_quarter_rate.csv')
+    (joint_dist, quarter_all, income_fit, dividend_fit, inflation_fit) = pickle.load(open("./inputs.pkl", "rb"))
     
     rmd_quarter['Adj_Rate'] = rmd_quarter.Quarterly_Rate * adj_RMD
     
