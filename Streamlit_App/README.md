@@ -1,6 +1,6 @@
 # Streamlit Tutorial with `Smart Retirement Plan` Data
 
-This tutorial builds a interactive dashboard
+This App provides an interactive dashboard
 using [`streamlit`](https://streamlit.io/), [`plotly`](https://plotly.com/python/) and
 data `Smart Retirement Plan` Lecture.
 
@@ -24,3 +24,5 @@ streamlit run app.py
 ## Deploy on the Web
 
 Go to https://share.streamlit.io/ and follow instructions there.
+
+
