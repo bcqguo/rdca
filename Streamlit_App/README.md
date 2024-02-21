@@ -21,8 +21,8 @@ In terminal, run:
 streamlit run app.py
 ```
 
-## Deploy on the Web
+## Deployment on the Web
 
-Go to https://share.streamlit.io/ and follow instructions there.
+visit `copula4retirement-fmd2lurezesdv2evfrqk2v.streamlit.io`
 
 
